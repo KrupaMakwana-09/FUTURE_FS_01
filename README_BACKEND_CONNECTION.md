@@ -1,0 +1,1 @@
+Frontend connected to backend POST /api/contact. Run backend on port 5000 and set VITE_API_URL.
