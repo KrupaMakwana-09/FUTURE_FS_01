@@ -15,24 +15,7 @@ const projects = [
     live: "#",
     gradient: "from-purple-600 to-blue-600"
   },
-  {
-    title: "Student Management System",
-    description: "A complete CRUD application for managing student records, attendance, and grades with secure authentication.",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
-    category: "Full Stack",
-    github: "https://github.com/KrupaMakwana-09",
-    live: "#",
-    gradient: "from-blue-500 to-cyan-500"
-  },
-  {
-    title: "E-Commerce Website",
-    description: "Full-featured online store with product catalog, shopping cart, user accounts, and mock checkout flow.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    category: "Full Stack",
-    github: "https://github.com/KrupaMakwana-09/ecommerce-website",
-    live: "https://ecommerce-website.vercel.app",
-    gradient: "from-orange-500 via-red-500 to-pink-500",
-  },
+  
   {
     title: "Smart Calculator",
     description: "A professional web calculator featuring responsive grid keyboard, dynamic math evaluation, history tracking, and a seamless light/dark mode transition.",
