@@ -1,98 +1,129 @@
-# Krupa Makwana — Portfolio
+# 👩‍💻 Krupa Makwana | Personal Portfolio
 
-A modern, premium personal portfolio website built with React 19, Tailwind CSS v4, and Framer Motion.
+Welcome to my personal portfolio repository!
 
-## Quick Start
+This project showcases my skills, education, projects, internship experience, certifications, and journey as a Computer Engineering student.
+
+🌐 **Live Portfolio:** [View My Portfolio](https://krupa-makwana-09.github.io/FUTURE_FS_01/)
+
+## ✨ About The Project
+
+A modern, responsive, and interactive personal portfolio website designed to present my technical skills, academic background, and development projects.
+
+The portfolio focuses on clean design, smooth animations, and an engaging user experience.
+
+## 🚀 Features
+
+- **Home / Hero Section** – Introduction and professional profile.
+- **About Me** – Personal introduction and background.
+- **Skills** – Technical skills and technologies.
+- **Education** – Academic qualifications.
+- **Projects** – Showcase of development projects.
+- **Experience** – Internship experience.
+- **GitHub Stats** – GitHub activity and statistics.
+- **Certifications** – Professional certificates.
+- **Contact Form** – Contact section for communication.
+- **Dark / Light Mode** – Theme switching functionality.
+- **Responsive Design** – Optimized for different screen sizes.
+- **Animations** – Smooth animations and interactive effects.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend development |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Styling |
+| JavaScript | Programming |
+| HTML5 | Web structure |
+| Framer Motion | Animations |
+| Lucide React | Icons |
+| Vite | Development and build tool |
+| Node.js | Backend runtime |
+| Express.js | Backend framework |
+| MongoDB | Database |
+
+## 📂 Project Structure
+
+```text
+FUTURE_FS_01/
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   └── App.tsx
+│   └── package.json
+│
+├── backend/
+│   └── ...
+│
+├── .env.example
+├── .gitignore
+├── README.md
+└── README_BACKEND_CONNECTION.md
+```
+
+## 💻 Installation & Setup
+
+**1. Clone the repository**
 
 ```bash
-# 1. Install dependencies
-npm install
+git clone https://github.com/KrupaMakwana-09/FUTURE_FS_01.git
+```
 
-# 2. Start development server
+**2. Open the project**
+
+```bash
+cd FUTURE_FS_01
+```
+
+**3. Install frontend dependencies**
+
+```bash
+cd frontend
+npm install
+```
+
+**4. Start the development server**
+
+```bash
 npm run dev
 ```
 
-Open **http://localhost:5173** in your browser. Done!
+**5. Open in browser**
 
-## Other Commands
-
-```bash
-npm run build    # Build for production → dist/
-npm run preview  # Preview production build locally
+```text
+http://localhost:5173
 ```
 
-## Project Structure
+## 🎯 Project Goals
 
-```
-KrupaMakwana-Portfolio/
-│
-├── public/
-│   ├── favicon.svg
-│   ├── opengraph.jpg
-│   └── robots.txt
-│
-├── src/
-│   ├── assets/
-│   │   └── krupa1_1780377029296.jpeg   ← Profile photo
-│   │
-│   ├── components/
-│   │   ├── Navbar.tsx          Fixed top navigation bar
-│   │   ├── Hero.tsx            Hero section with typing effect & photo
-│   │   ├── About.tsx           About Me + animated stats counters
-│   │   ├── Skills.tsx          Skills with animated progress bars
-│   │   ├── Education.tsx       Education timeline
-│   │   ├── Projects.tsx        Project cards with category filter
-│   │   ├── Experience.tsx      Internship experience card
-│   │   ├── GitHubStats.tsx     Live GitHub stats
-│   │   ├── Certifications.tsx  Certification cards
-│   │   ├── Contact.tsx         Contact form
-│   │   ├── Footer.tsx          Footer with social links
-│   │   ├── ScrollProgress.tsx  Scroll progress bar at top
-│   │   ├── BackToTop.tsx       Back to top button
-│   │   ├── CustomCursor.tsx    Custom cursor glow effect
-│   │   ├── ThemeProvider.tsx   Dark/Light mode toggle
-│   │   └── ui/                 shadcn/ui base components
-│   │
-│   ├── pages/
-│   │   ├── Home.tsx            Main single-page layout
-│   │   └── not-found.tsx       404 page
-│   │
-│   ├── hooks/
-│   │   ├── use-mobile.tsx
-│   │   └── use-toast.ts
-│   │
-│   ├── lib/
-│   │   └── utils.ts            Tailwind className utility
-│   │
-│   ├── App.tsx                 Router setup
-│   ├── main.tsx                Entry point
-│   └── index.css               Global styles & theme variables
-│
-├── index.html                  HTML entry (SEO meta tags)
-├── vite.config.ts              Vite config
-├── tsconfig.json               TypeScript config
-└── package.json                Dependencies & scripts
+- Build a professional developer portfolio.
+- Improve frontend and backend development skills.
+- Showcase practical development projects.
+- Learn modern web development technologies.
+- Create a strong online professional presence.
 
-```
+## 👩‍💻 About Me
 
-## Tech Stack
+**Krupa Makwana**
 
-| Tech | Purpose |
-|------|---------|
-| React 19 | UI library |
-| TypeScript | Type safety |
-| Tailwind CSS v4 | Styling |
-| Framer Motion | Animations |
-| react-icons | Tech stack icons |
-| lucide-react | UI icons |
-| shadcn/ui | UI components |
-| Vite 7 | Build tool |
-| wouter | Client-side routing |
+Computer Engineering Student | Aspiring Full Stack Developer
 
-## Customisation
+I am passionate about learning new technologies, building creative projects, and continuously improving my development skills.
 
-- **Profile photo** → replace `src/assets/krupa1_1780377029296.jpeg`
-- **Personal details** → edit each component in `src/components/`
-- **Projects** → edit the `projects` array in `src/components/Projects.tsx`
-- **Skills** → edit the `skillCategories` array in `src/components/Skills.tsx`
-- **Theme colours** → edit CSS variables in `src/index.css` under `:root`
+### Connect With Me
+
+- **GitHub:** [KrupaMakwana-09](https://github.com/KrupaMakwana-09)
+- **LinkedIn:** [Krupa Makwana](https://www.linkedin.com/in/krupa-makwana-33552231a/)
+- **Portfolio:** [Visit Website](https://krupa-makwana-09.github.io/FUTURE_FS_01/)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
+
+**Thank you for visiting my portfolio!** 🚀
